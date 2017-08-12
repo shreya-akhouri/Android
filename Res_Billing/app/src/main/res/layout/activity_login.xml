@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7FEFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Welcome to food billing restraunt"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="37dp"
+        android:text="List of Items---"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="33dp"
+        android:onClick="onClick_A"
+        android:text="1. a"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t1"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="29dp"
+        android:onClick="onClick_B"
+        android:text="2. b"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t2"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="38dp"
+        android:onClick="onClick_C"
+        android:text="3. c"
+        android:textColor="@android:color/holo_blue_dark" />
+
+
+</RelativeLayout>
