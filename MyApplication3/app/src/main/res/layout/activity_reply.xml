@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreya.myapplication.reply">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME:"
+        android:layout_alignBaseline="@+id/er1"
+        android:layout_alignBottom="@+id/er1"
+        android:layout_toStartOf="@+id/er1"
+        android:layout_marginEnd="10dp" />
+
+    <EditText
+        android:id="@+id/er1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/er2"
+        android:layout_alignStart="@+id/er2"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD:"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/er3"
+        android:layout_toStartOf="@+id/er1" />
+
+    <EditText
+        android:id="@+id/er2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignBaseline="@+id/textView20"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignStart="@+id/er3" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPLY:"
+        android:layout_marginBottom="39dp"
+        android:layout_above="@+id/br1"
+        android:layout_alignStart="@+id/textView18" />
+
+    <EditText
+        android:id="@+id/er3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textView22"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignStart="@+id/br1" />
+
+    <Button
+        android:id="@+id/br1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        app:srcCompat="@drawable/vit"
+        android:layout_above="@+id/er1"
+        android:layout_alignEnd="@+id/er1" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="LOGOUT" />
+
+</RelativeLayout>

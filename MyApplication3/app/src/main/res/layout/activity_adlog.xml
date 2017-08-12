@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:layout_alignBaseline="@+id/e20"
+        android:layout_alignBottom="@+id/e20"
+        android:layout_toStartOf="@+id/e20"
+        android:layout_marginEnd="41dp" />
+
+    <EditText
+        android:id="@+id/e20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/e21"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="37dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:layout_alignBaseline="@+id/e21"
+        android:layout_alignBottom="@+id/e21"
+        android:layout_alignStart="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/e21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b20"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="67dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/b20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/e21"
+        android:layout_marginBottom="13dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+</RelativeLayout>

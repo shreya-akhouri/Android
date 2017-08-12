@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreya.myapplication.view_reply">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME:"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_marginTop="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPLY:"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="208dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="105dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/ev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_marginStart="108dp"
+        android:layout_toEndOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/ev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_toEndOf="@+id/ev2"
+        android:text="LOGOUT" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

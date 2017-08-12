@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:layout_alignBaseline="@+id/b95"
+        android:layout_alignBottom="@+id/b95"
+        android:layout_alignStart="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignEnd="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW MESSAGE"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW PROFILE"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do u want to provide any suggestion--"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/tv3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SUGGEST"
+        android:layout_below="@+id/ex"
+        android:layout_alignStart="@+id/ex" />
+
+    <Button
+        android:id="@+id/b94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW REPLY"
+        android:layout_alignBaseline="@+id/b99"
+        android:layout_alignBottom="@+id/b99"
+        android:layout_alignStart="@+id/tv3" />
+
+    <Button
+        android:id="@+id/b95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="LOGOUT" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vit"
+        android:layout_marginBottom="29dp"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
